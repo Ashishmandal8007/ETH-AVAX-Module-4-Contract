@@ -16,24 +16,24 @@ Transfer Items: Players can transfer their in-game items to other players.
 
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-Once you are on the Remix website, create a new file by clicking on the left-hand sidebar. Save the file with a .sol extension (e.g., DeganToken.sol). Copy and paste the code from the contract into the file.
+Once you are on the Remix website, create a new file by clicking on the left-hand sidebar. Save the file with a .sol extension (e.g., ERC20degentoken.sol). Copy and paste the code from the contract into the file.
 
 code look like this
 ```javascript
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract DeganToken {
+contract deganToken {
   ....
   ...
 }
 
 ```
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to graater than 0.8.0, and then click on the "Compile DeganToken.sol" button.
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to graater than 0.8.0, and then click on the "Compile ERC20degentoken.sol" button.
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar.
 In environment you have to inject your metamask and metamask must be connected with fuji testnet.
-Select the "deganToken" contract from the dropdown menu, and then click on the "Deploy" button.
+Select the "ERC20degentoken" contract from the dropdown menu, and then click on the "Deploy" button.
 
 With this approach, you can configure Metamask to interact with Avalanche networks such as Fuji Testnet or Avalanche Mainnet.
 1. Install Metamask: If you don't have Metamask installed in your browser, you can download and install it from the official [Metamask website](https://metamask.io/)
